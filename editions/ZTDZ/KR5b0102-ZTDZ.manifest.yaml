@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5b0102/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5b0102/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 固氣還神九轉瓊丹論
+  date: '2015-08-28 23:49:26.510876'
+  source:
+    repository: kanripo
+    path: KR5b0102
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5b0102_000-ZTDZ.yaml, hash: 'sha256:d42341ea59bb21e85a10a53df4cd1609d73e146b3324428f2da667d341d48bf4'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5b0102_000-ZTDZ.markers.yaml, hash: 'sha256:14db61d743d37c76b051063dd5131ff0578b2d1ae2ce49f328ed99f555f5ff20'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5b0102_SJB_000-060587a
+    span:
+    - body
+    - 0
+    - 3664
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:61d9057f7d4a71dbdd4aa04cf26f5a5a4551db784291a2231bff10ffaf0df693
